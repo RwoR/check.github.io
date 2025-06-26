@@ -79,6 +79,8 @@
     <!-- 👇 Real-world Execution Video 👇 -->
     <!-- 每行为 左视频 + 描述 + 右视频      -->
     <!-- ================================ -->
+
+    
     <section class="hero" style="padding-top: 1em; padding-bottom: 2em;">
         <div class="container">
             <div class="box" style="...">
@@ -89,6 +91,31 @@
         </div>
     </section>
 
+
+<section class="hero">
+  <div class="columns is-vcentered">  <!-- Bulma 行 -->
+    <!-- 左：人手视频 -->
+    <div class="column is-one-third has-text-centered">
+      <video autoplay loop muted playsinline style="max-width:100%;border-radius:6pt;">
+        <source src="static/assets/videos/hand/open_drawer.mp4" type="video/mp4">
+        <!-- ↑ 路径改为 hand/ 才是人手视频 -->
+      </video>
+    </div>
+
+    <!-- 中：文字 -->
+    <div class="column is-4 has-text-centered">
+      <div class="box handtext example-font">Open Drawer</div>
+    </div>
+
+    <!-- 右：机器人视频 -->
+    <div class="column is-one-third has-text-centered">
+      <video autoplay loop muted playsinline style="max-width:100%;border-radius:6pt;">
+        <source src="static/assets/videos/execu/open_drawer.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+   
     <!-- 示例视频组：Open Drawer -->
     <section class="hero">
         <div class="v-columns" style="display: flex; width: 100%;">
